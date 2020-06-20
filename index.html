@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="script.js"></script>    
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 class="header__h1">Pocket Converter
+ 
+            </h1>
+        </header>
+
+        <section class="section">
+            <form action>
+                <fieldset class="fieldset">
+
+                    <p>
+                        <label class="label">
+                            <span class="form__labelText">Twoja kwota:</span>
+                            <input class="label__section__filedset__label__input" type="number" min="1" value="1" id="value">
+                        </label>
+                    </p>
+                    <p>
+                        <label class="label--option">
+                            <span class="label__span"> Twoja waluta:</span>
+                            <select name="your-value" id="yourcv">
+                                <option value="PLN">PLN</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label class="label">
+                            <span class="form__labelText">Przekonwertowana wartość:</span>
+                            <input class="label__section__filedset__label__input" type="number" readonly id="result">
+                        </label>
+                    </p>
+                    <p>
+                        <label class="label--option">
+                            <span class="label__span"> Waluta do konvercji:</span>
+                            <select name="your-conv-value" id="yourv">
+                                
+                                <option value="PLN">PLN</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                
+                            </select>
+                        </label>
+                    </p>
+                    
+                </fieldset>
+            </form>
+            <button class="button">Konwertuj</button>
+
+        </section>
+    </main>
+</body>
+
+</html>

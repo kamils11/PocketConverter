@@ -1,0 +1,69 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+*, *::after,*::before
+{
+    box-sizing: inherit;
+}
+.header__h1
+{
+    background-color: lightcoral;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.section
+{
+    padding: 5px;
+    background-color: lightblue;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.form__labelText
+{
+    width: 100%;
+    max-width: 200px;
+    
+    display: inline-block;
+  
+    
+}
+.label__section__filedset__label__input
+{
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+}
+main
+{
+    margin-top: 80px;
+}
+.label--option
+{
+   
+    display: block;
+    max-width: 300px;
+    padding-left: 50px;
+    margin: 0 auto;
+}
+.label__span
+{
+    display: inline-block;
+    width: 100%;
+    max-width: 150px;
+   
+
+}
+.button
+{
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.fieldset
+{
+    border: 2px dotted wheat;
+}
