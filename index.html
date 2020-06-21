@@ -25,18 +25,18 @@
         </header>
 
         <section class="section">
-            <form action>
+            <form method="dialog">
                 <fieldset class="fieldset">
 
                     <p>
                         <label class="label">
-                            <span class="form__labelText">Twoja kwota:</span>
-                            <input class="label__section__filedset__label__input" type="number" min="1" value="1" id="value">
+                            <span class="form__labelText">Your value*:</span>
+                            <input class="label__section__filedset__label__input" type="number" min="1" value="1" id="value" required>
                         </label>
                     </p>
                     <p>
                         <label class="label--option">
-                            <span class="label__span"> Twoja waluta:</span>
+                            <span class="label__span">your currency:</span>
                             <select name="your-value" id="yourcv">
                                 <option value="PLN">PLN</option>
                                 <option value="USD">USD</option>
@@ -46,13 +46,13 @@
                     </p>
                     <p>
                         <label class="label">
-                            <span class="form__labelText">Przekonwertowana wartość:</span>
+                            <span class="form__labelText">Converted value:</span>
                             <input class="label__section__filedset__label__input" type="number" readonly id="result">
                         </label>
                     </p>
                     <p>
                         <label class="label--option">
-                            <span class="label__span"> Waluta do konvercji:</span>
+                            <span class="label__span"> To convert:</span>
                             <select name="your-conv-value" id="yourv">
                                 
                                 <option value="PLN">PLN</option>
@@ -62,10 +62,10 @@
                             </select>
                         </label>
                     </p>
-                    
+                    <button class="button">Convert</button>
                 </fieldset>
             </form>
-            <button class="button">Konwertuj</button>
+           
 
         </section>
     </main>
