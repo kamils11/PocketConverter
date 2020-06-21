@@ -1,9 +1,9 @@
-let values = document.querySelector("#value");
-let yourv = document.querySelector("#yourv");
-let yourcv = document.querySelector("#yourcv");
-let results = document.querySelector("#result");
+const values = document.querySelector("#value");
+const yourv = document.querySelector("#yourv");
+const yourcv = document.querySelector("#yourcv");
+const results = document.querySelector("#result");
 
-let button = document.querySelector(".button");
+const button = document.querySelector(".button");
 
 let pln;
 let usd;
