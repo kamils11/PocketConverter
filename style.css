@@ -8,8 +8,10 @@ html{
 }
 body{
     background-image: url("https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+   /* Zdjęcie Sharon McCutcheon na Unsplash*/
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 100hv;
 }
 .header__h1
 {
